@@ -1,0 +1,10 @@
+.searchBar
+{
+    position:relative;
+    overflow: hidden;
+}
+
+#SearchBarInput::-webkit-search-cancel-button
+{
+
+}

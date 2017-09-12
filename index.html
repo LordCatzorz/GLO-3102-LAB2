@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LAB 2 - Search bar</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="searchBar">
+        <input id="SearchBarInput" list="MyOptions" type="search" onsearch="CloseSuggestion(this)"/>
+    </div>
+    <datalist id="MyOptions">
+        <option value="foo">Foo</option>
+        <option value="bar">Bar</option>
+        <option value="baz">Baz</option>
+        <option value="qux">Qux</option>
+        <option value="quxx">Quxx</option>
+    </datalist>
+
+</body>
+</html>
