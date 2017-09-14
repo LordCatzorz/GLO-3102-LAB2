@@ -1,10 +1,47 @@
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
 .searchBar
 {
     position:relative;
     overflow: hidden;
 }
 
-#SearchBarInput::-webkit-search-cancel-button
+.searchContainer
 {
+    width: 300px;
+    height: 22px;
+    background-color: red;
+    border: 1px solid black;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+}
 
+.searchInputResult
+{
+    width: 100%;
+    height: calc(100% - 5px);
+}
+
+.searchCancelButton
+{
+    height: 100%;
+    width: 22px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 22px;
+    display: none;
+}
+
+.searchContainer datalist
+{
+    position: absolute;
+    top: 300px;
 }
