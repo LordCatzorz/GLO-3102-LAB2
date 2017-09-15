@@ -54,7 +54,8 @@ html{
     background-color: darkcyan;
 }
 
-.searchContainer option .errorNoElementFound
+.searchContainer .errorNoElementFound,
+.searchContainer .errorNoElementFound:hover
 {
     color: silver;
     background-color: white;
