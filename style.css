@@ -43,5 +43,19 @@ html{
 .searchContainer datalist
 {
     position: absolute;
-    top: 300px;
+    top: 25px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+.searchContainer option:hover
+{
+    color: silver;
+    background-color: darkcyan;
+}
+
+.searchContainer option .errorNoElementFound
+{
+    color: silver;
+    background-color: white;
 }
